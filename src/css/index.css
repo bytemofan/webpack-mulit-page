@@ -1,0 +1,7 @@
+@import url("./normalize.css");
+@import url("./common.css");
+@import url("./footer.css");
+
+.container-fluid.index-page{
+    height: 83vh;
+}

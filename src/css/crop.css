@@ -1,0 +1,14 @@
+@import url("./normalize.css");
+@import url("./common.css");
+@import url("./footer.css");
+
+.container-fluid .jumbotron{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container-fluid .jumbotron img{
+    width: 1124px;
+    height: auto;
+}

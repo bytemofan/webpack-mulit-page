@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    #include("./layout/meta.html")
+    <title>登录/注册</title>
+</head>
+<body>
+#include("./layout/login-header.html")
+<div class="container-fluid login-page">
+    <form class="form-signin" id="login-form" onsubmit="return false;">
+        <h2 class="form-signin-heading">登录</h2>
+        <label for="inputEmail" class="sr-only">邮箱/用户名</label>
+        <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">密码</label>
+        <input name="pwd" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me" id="remember"> 记住密码
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" id="submit-btn">登录</button>
+    </form>
+</div>
+#include("./layout/footer.html")
+</body>
+</html>
